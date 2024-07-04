@@ -14,6 +14,7 @@ Apple Watch Ultra 侧边有个 Action Button，我一直想用他来快速开关
 2. docker push ccr.ccs.tencentyun.com/<你的腾讯云镜像服务个人版命名空间>/niu-control:0.0.1
 3. 在腾讯云对象存储服务里边新建好你的 bucket，配置好 secret id 和 secret key。
 4. 新建云函数
+    - 64M 内存即可
     - 建议开启镜像加速
     - 环境变量请参考 Dockerfile，根据你的实际情况填写。注意 NIU_ACCOUNT_MD5 填写你的小牛账号密码 md5hash 之后的值。
     - 镜像选取刚刚 push 的。
