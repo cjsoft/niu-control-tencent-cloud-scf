@@ -30,7 +30,7 @@ Apple Watch Ultra 侧边有个 Action Button，我一直想用他来快速开关
 6. 在 iOS 手机上配置自动化，链接上电动车蓝牙设备之后，以无需确认立即运行模式运行 NiuConn
 7. 将 NiuToggleAcc 绑定到手表 Action Button 上。
 
-你现在应该能通过按动 Action Button 切换电动车电源状态。处于安全考虑，整个流程被设计成在手机靠近电动车 30s 内通过 Action Button 可以打开电动车电源，在任意时刻都可以通过 Action Button 关闭电动车电源。
+你现在应该能通过按动 Action Button 切换电动车电源状态。出于安全考虑，整个流程被设计成在手机靠近电动车 30s 内通过 Action Button 可以打开电动车电源，在任意时刻都可以通过 Action Button 关闭电动车电源。
 
 ## 感谢
 我的小牛服务器交互代码，是修改自这位仁兄的
